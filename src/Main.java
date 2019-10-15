@@ -18,6 +18,10 @@ public class Main {
         System.out.println("Unesite broj");
         int n = scanner.nextInt();
 
+        for(int i=2; i<n; i++) {
+            if(i% sumaCifara(i) == (0)) System.out.println(i);
+        }
+
     }
 
 }
